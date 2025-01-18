@@ -1,0 +1,47 @@
+<!-- 
+MemCard2025
+MIT License
+Copyright (c) 2025 Raymond Lou Independent Developer
+See LICENSE file for full license information.
+-->
+
+<!-- subpages/challenge_view.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/challenge_view.css">
+</head>
+<body>
+    <div class="display-container">
+        <div class="image-container">
+            <img id="display-image" src="" alt="Memory Card">
+        </div>
+        
+        <div class="subtitle-container">
+            <p id="memSubtitle"></p>
+        </div>
+        
+        <audio id="audio"></audio>
+        
+        <div class="button-grid">
+       
+            <button id="rememberBtn">I remember this!</button>
+            
+            <button id="forgetBtn">I don't know this.</button>
+
+            <button id="prevBtn" disabled>Previous</button>
+
+            <button id="nextBtn" disabled>Next</button>
+
+        </div>
+        
+        <button id="goHomeBtn" class="home-button">Go Home</button>
+    </div>
+    <script type="module" src="../js/challenge_view.js"></script>
+
+</body>
+</html>
+
